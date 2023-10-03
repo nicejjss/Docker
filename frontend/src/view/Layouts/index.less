@@ -1,0 +1,45 @@
+.ant-layout {
+  height: 100vh;
+
+  .ant-layout-sider-children {
+    width: 100%;
+  }
+}
+
+.ant-btn-text {
+  color: white !important;
+}
+.ant-drawer-header {
+  padding: 0 !important;
+  .ant-drawer-header-title {
+    justify-content: flex-end;
+    .ant-drawer-close {
+      color: #fff;
+      margin-right: 5px;
+      margin-top: 5px;
+    }
+  }
+}
+
+.header {
+  background-color: #001529;
+  z-index: 100000000000;
+}
+
+.drawer-wrapper {
+  .ant-drawer-wrapper-body {
+    background: #001529;
+    .ant-drawer-body {
+      padding: 0;
+    }
+  }
+  .ant-drawer-content-wrapper {
+    padding-right: 50%;
+  }
+
+  @media (min-width: 640px) {
+    .ant-drawer-content-wrapper {
+      display: none;
+    }
+  }
+}
